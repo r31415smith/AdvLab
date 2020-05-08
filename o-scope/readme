@@ -1,2 +1,8 @@
 Uploading a few example files from the GW-Instek Memory Prime GDS-1062A. Formatted SD card to FAT32.  Also possible to import data 
 using their software -- Freewave. Manual also attached here.
+
+A0000CH1.CSV A0000CH2.CSV -- ch1 is AM sine wave, ch2 is the sync for the AM -- this is what was used for expt 4D of Optical Pumping (TeachSpin)
+   (sine wave should be 50 kHz, and AM frequency 5 Hz)
+
+A0007CH1.CSV A0007CH2.CSV -- actual data from the optical pumping experiment -- that should be Rb-87 data, 8V ampl on keysight (4.88Vpp meas'd separately on RF leads with scope). 
+period of ringing should measure to be ~400 us. CH1 is the ringing data, CH2 is the AM sync.
